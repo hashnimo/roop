@@ -12,7 +12,7 @@ from tqdm import tqdm
 
 import roop.globals
 
-TEMP_DIRECTORY = '/kaggle/working/temp'
+TEMP_DIRECTORY = os.getcwd() + '/temp'
 TEMP_VIDEO_FILE = 'temp.mp4'
 
 # monkey patch ssl for mac
